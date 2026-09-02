@@ -37,7 +37,7 @@ window.CONFIG = {
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://maps.app.goo.gl/ugqiySgBfuHhuF839",
+  mapa: "https://www.google.com/maps/place/Ch%C3%A1cara+Recanto+dos+P%C3%A1ssaros/@-26.1903043,-48.9034412,17z/data=!3m1!4b1!4m6!3m5!1s0x94dea700162fec85:0xd7b47069d1160f6e!8m2!3d-26.1903043!4d-48.9034412!16s%2Fg%2F11x0nrfp5_?hl=pt&entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
