@@ -23,15 +23,15 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Isadora",
+  nome: "Maria Júlia",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5511948469479",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Isadora."
+    numero: "5547999183234",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Maria Júlia."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
@@ -49,9 +49,9 @@ window.CONFIG = {
     whatsapp: true,
     localizacao: true,
     presentes: true,
-    dresscode: false,
-    manual: false,
-    contagem: true
+    dresscode: true,
+    manual: true,
+    contagem: false
   },
 
   // ----- TEXTOS DOS BOTÕES -----------------------------------------------
@@ -91,7 +91,8 @@ window.CONFIG = {
         confirm: { left:25.449686064098174, top:60.466030655199084, width:19.64355312204473, height:11.449252034014982 },
         map: { left:55.00868653749942, top:60.12078059785067, width:19.292465283626143, height:11.399863780795407 },
         gift: { left:25.56607738805926, top:76.10537095759099, width:19.567092651757186, height:11.52034966267883 },
-        countdown: { left:54.19227547112636, top:76.22044399828745, width:19.567092651757186, height:11.52034966267883 }
+        dress: { left:25.56607738805926, top:76.10537095759099, width:19.567092651757186, height:11.52034966267883 },
+        manual: { left:54.19227547112636, top:76.22044399828745, width:19.567092651757186, height:11.52034966267883 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
@@ -113,6 +114,6 @@ window.CONFIG = {
   // volume: de 0 (mudo) a 1 (máximo). O padrão 0.30 é agradável e não
   //         briga com o áudio do vídeo.
   musica: {
-    volume: 0.30
+    volume: 0.70
   }
 };
